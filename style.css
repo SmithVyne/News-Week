@@ -193,7 +193,6 @@
     width: 100%;
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    grid-template-rows: repeat(2, max-content);
     justify-content: space-between;
     margin-bottom: 20px;
 }
