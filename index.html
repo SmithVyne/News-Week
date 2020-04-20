@@ -15,11 +15,14 @@
   <body>
     <nav class="container-fluid my-nav">
       <div class="row top-nav">
-        <div class="col">Tue, Apr 14, 2020</div>
+        <div class="col top-nav-date">Tue, Apr 14, 2020</div>
         <div class="col my-branding">Newsweek</div>
         <div class="col members-sign">
-          <a href="#" class="members-signin">SIGN IN</a>
-          <a href="#" class="members-subs">SUBSCRIBE ></a>
+          <div class="row">
+              <a href="#" class="members-signin">SIGN IN</a>
+              <a href="#" class="members-subs">SUBSCRIBE ></a>
+          </div>
+          <i class="fas fa-bars"></i>
         </div>
       </div>
       <div class="lower-nav">
@@ -42,10 +45,10 @@
       </div>
     </nav>
 
-    <div class="main container-fluid no-gutters">
-      <div class="row no-gutters">
+    <div class="main container-fluid">
+      <div class="row border-bottom pb-3">
 
-        <div class="col my-first-col">
+        <div class=" col-sm-12 col-md-6 col-lg my-first-col">
           <div class="row no-gutters">
             <h6 class="col-heading">FEATURED STORIES</h6>
             
@@ -82,7 +85,7 @@
           </div>
         </div>
 
-        <div class="col-5 my-second-col">
+        <div class=" col-sm-12 col-md-6 col-lg-5 my-second-col">
           <div class="row no-gutters">
             <h6 class="col-heading">TOP STORY</h6>
             <div class="col-12 my-top-story">
@@ -91,79 +94,344 @@
               <p class="first-col-text">Trump is halting U.S. funding of WHO after previous administrations' "benign neglect" policy allowed Beijing to mislead the organization, with deadly consequences.</p>
             </div>
             <h6 class="col-heading">HEROES OF THE PANDEMIC</h6>
-            <div class="heroes-grid">
-              <div class="heroes-art">
-                <img src="https://d.newsweek.com/en/full/1578357/restauranteur-delivers-oranges-hospital-workers-amid-coronavirus-crisis.jpg?w=397&h=397&f=c821b8426a180c7ef06fe0ae3a80a48b" alt="" class="heroes-img">
-                <a href="#" class="heroes-header">Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis</a>
-                <p class="heroes-text">We all have to help each other," Matthew Fermin, owner of East Harlem restaurant Santiago's Beer Garden, told Newsweek</p>
+            <div class="container-fluid heroes-grid">
+              <div class="row">
+                  <div class="col-12 col-md-4 pl-0">
+                      <img src="https://d.newsweek.com/en/full/1578357/restauranteur-delivers-oranges-hospital-workers-amid-coronavirus-crisis.jpg?w=397&h=397&f=c821b8426a180c7ef06fe0ae3a80a48b" alt="" class="heroes-img">
+                      <a href="#" class="heroes-header">Restauranteur Delivers Oranges to Hospital Workers Amid Coronavirus Crisis</a>
+                      <p class="heroes-text">We all have to help each other," Matthew Fermin, owner of East Harlem restaurant Santiago's Beer Garden, told Newsweek</p>
+                    </div>
+                    <div class="col-12 col-md-4 px-0">
+                      <img src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&h=397&f=f7a624e81aa902878bb39d5fe83e971f" alt="" class="heroes-img">
+                      <a href="#" class="heroes-header">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a>
+                      <p class="heroes-text">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</p>
+                    </div>
+                    <div class="col-12 col-md-4 pr-0">
+                      <img src="https://d.newsweek.com/en/full/1578399/coronavirus-pandemic-heroes-food-nurses-philadelphia.jpg?w=397&h=397&f=df54d52fbce46b666dc3c098564d1f08" alt="" class="heroes-img">
+                      <a href="#" class="heroes-header">Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</a>
+                      <p class="heroes-text">"I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
+                    </div>
               </div>
-              <div class="heroes-art">
-                <img src="https://d.newsweek.com/en/full/1578426/zoe-monterola-founder-six-feet-supplies.jpg?w=397&h=397&f=f7a624e81aa902878bb39d5fe83e971f" alt="" class="heroes-img">
-                <a href="#" class="heroes-header">Teenagers Shop for the Vulnerable During Coronavirus Emergency</a>
-                <p class="heroes-text">"I almost cried," said a user of Six Feet Supplies, a charity started by teenagers who shop for those susceptible to COVID-19.</p>
-              </div>
-              <div class="heroes-art">
-                <img src="https://d.newsweek.com/en/full/1578399/coronavirus-pandemic-heroes-food-nurses-philadelphia.jpg?w=397&h=397&f=df54d52fbce46b666dc3c098564d1f08" alt="" class="heroes-img">
-                <a href="#" class="heroes-header">Philly DJ Rallies Friends, Strangers to Feed Nurses and Support Businesses</a>
-                <p class="heroes-text">"I want to keep it going as long as we can," Ryan O'Connell told Newsweek.</p>
-              </div>
+                
             </div>
 
             <h6 class="col-heading">CULTURE & TRAVEL</h6>
-            <div class="heroes-grid"> <!--CULTURE GRID-->
-              <div class="heroes-art">
-                <img src="https://d.newsweek.com/en/full/1581225/cul-cbd-mad-tasty-6-pack.jpg?w=397&h=397&f=3d0b6829f435fd401e1fb7c0a637e46e" alt="" class="heroes-img">
-                <a href="#" class="heroes-header">Soothing CBD Gifts for an Anxious Time</a>
-                <p class="heroes-text">CBD may be just the thing to make the stress everyone is feeling a little more bearable. We tested more than 25 gift sets that are a timely treat for yourself or someone from whom you are social distancing.</p>
-              </div>
-              <div class="heroes-art">
-                <img src="https://d.newsweek.com/en/full/1580577/sunrise-behind-empire-state-building-new-york-city.jpg?w=397&h=397&f=dee43d9664b5b2547300eac51bde967a" alt="" class="heroes-img">
-                <a href="#" class="heroes-header">The Relief of Uncertainty, Muses One New Yorker</a>
-                <p class="heroes-text">In these pestilent days of being a New York City denizen during the age of COVID-19, one travel writer muses on what we can learn from the uncertainty of reality.</p>
-              </div>
-              <div class="heroes-art">
-                <img src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=397&h=397&f=4b429d9dd20904ac5f4d4d873d71791a" alt="" class="heroes-img">
-                <a href="#" class="heroes-header">Marvel at These 10 Freaks of Nature</a>
-                <p class="heroes-text">The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
-              </div>
+            <div class="container-fluid"> <!--CULTURE GRID-->
+              <div class="row">
+                  <div class="col-12 col-md-4 pl-0">
+                      <img src="https://d.newsweek.com/en/full/1581225/cul-cbd-mad-tasty-6-pack.jpg?w=397&h=397&f=3d0b6829f435fd401e1fb7c0a637e46e" alt="" class="heroes-img">
+                      <a href="#" class="heroes-header">Soothing CBD Gifts for an Anxious Time</a>
+                      <p class="heroes-text">CBD may be just the thing to make the stress everyone is feeling a little more bearable. We tested more than 25 gift sets that are a timely treat for yourself or someone from whom you are social distancing.</p>
+                    </div>
+                    <div class="col-12 col-md-4 px-0">
+                      <img src="https://d.newsweek.com/en/full/1580577/sunrise-behind-empire-state-building-new-york-city.jpg?w=397&h=397&f=dee43d9664b5b2547300eac51bde967a" alt="" class="heroes-img">
+                      <a href="#" class="heroes-header">The Relief of Uncertainty, Muses One New Yorker</a>
+                      <p class="heroes-text">In these pestilent days of being a New York City denizen during the age of COVID-19, one travel writer muses on what we can learn from the uncertainty of reality.</p>
+                    </div>
+                    <div class="col-12 col-md-4 pr-0">
+                      <img src="https://d.newsweek.com/en/full/1579421/cul-uncharted-nature-02.jpg?w=397&h=397&f=4b429d9dd20904ac5f4d4d873d71791a" alt="" class="heroes-img">
+                      <a href="#" class="heroes-header">Marvel at These 10 Freaks of Nature</a>
+                      <p class="heroes-text">The world is filled with unique, breathtaking natural wonders—from boiling craters to caves full of luminescent glowworms. These 10 sites are a great place to start when looking for hope in some of Mother Nature's greatest offerings.</p>
+                    </div>
+              </div>       
             </div>
+
+            <div class="more-stories">
+                <h6 class="col-heading stories-heading">MORE STORIES</h6>
+                <div class="more-stories-art">
+                    <img src="https://d.newsweek.com/en/full/1582241/kamala-harris-joe-biden-gretchen-whitmer.jpg?w=95&h=95&f=81e948a0c7ac829b8a0c46af4595b561" alt="" class="more-stories-img">
+                    <div class="more-stories-right">
+                        <a href="#" class="more-stories-header">What Warren, Abrams, Harris, Whitmer Have Said About Being Biden's VP</a>
+                        <p class="more-stories-text">Warren and Abrams both asserted this week that they would be eager to join the presumptive Democratic nominee's ticket.</p>
+                    </div>
+                </div>
+                <div class="more-stories-art">
+                    <img src="https://d.newsweek.com/en/full/1582241/kamala-harris-joe-biden-gretchen-whitmer.jpg?w=95&h=95&f=81e948a0c7ac829b8a0c46af4595b561" alt="" class="more-stories-img">
+                    <div class="more-stories-right">
+                        <a href="#" class="more-stories-header">What Warren, Abrams, Harris, Whitmer Have Said About Being Biden's VP</a>
+                        <p class="more-stories-text">Warren and Abrams both asserted this week that they would be eager to join the presumptive Democratic nominee's ticket.</p>
+                    </div>
+                </div>
+              </div>
             
           </div>
         </div>
 
-        <div class="col my-third-col">
-          <div class="row no-gutters">
+        <div class="col-sm-12 col-md-12 col-lg my-third-col">
+          <div class="row">
               <h6 class="col-heading">OPINION</h6>
               <div class="col-12">
-              <div class="aside-art">
-                <p class="aside-art-title"> 
-                  China Hawks Are Calling Coronavirus Their Smoking Gun. Don't Buy It 
-                </p>
-                <p>
-                  BY KERRY BROWN
-                </p>
-              </div>
-              <div class="aside-art">
-                  <p class="aside-art-title"> 
-                    China Hawks Are Calling Coronavirus Their Smoking Gun. Don't Buy It 
-                  </p>
-                  <p>
+
+              <div class="aside-art d-flex align-items-start">
+                <img src="https://d.newsweek.com/en/full/110935/neil-baron.png?w=63&h=63&f=0269dfc534ab46dac4c7f3301d6a6e72" alt="" class="aside-art-img">
+                <div class="aside-art-right">
+                  <a href="#" class="aside-art-title"> 
+                    Could Trump Be Criminally Liable for His Deadly Mishandling of Coronavirus? 
+                  </a>
+                  <p class="aside-art-auth">
                     BY KERRY BROWN
                   </p>
+                </div>
               </div>
-              <div class="aside-art">
-                  <p class="aside-art-title"> 
-                    China Hawks Are Calling Coronavirus Their Smoking Gun. Don't Buy It 
-                  </p>
-                  <p>
+              
+              <div class="aside-art d-flex align-items-start">
+                <img src="https://d.newsweek.com/en/full/110935/neil-baron.png?w=63&h=63&f=0269dfc534ab46dac4c7f3301d6a6e72" alt="" class="aside-art-img">
+                <div class="aside-art-right">
+                  <a href="#" class="aside-art-title"> 
+                    Could Trump Be Criminally Liable for His Deadly Mishandling of Coronavirus? 
+                  </a>
+                  <p class="aside-art-auth">
                     BY KERRY BROWN
                   </p>
-              </div>              
+                </div>
+              </div>
+              <div class="aside-art d-flex align-items-start">
+                <img src="https://d.newsweek.com/en/full/110935/neil-baron.png?w=63&h=63&f=0269dfc534ab46dac4c7f3301d6a6e72" alt="" class="aside-art-img">
+                <div class="aside-art-right">
+                  <a href="#" class="aside-art-title"> 
+                    Could Trump Be Criminally Liable for His Deadly Mishandling of Coronavirus? 
+                  </a>
+                  <p class="aside-art-auth">
+                    BY KERRY BROWN
+                  </p>
+                </div>
+              </div>
+              <div class="aside-art aside-art-last d-flex align-items-start">
+                <img src="https://d.newsweek.com/en/full/110935/neil-baron.png?w=63&h=63&f=0269dfc534ab46dac4c7f3301d6a6e72" alt="" class="aside-art-img">
+                <div class="aside-art-right">
+                  <a href="#" class="aside-art-title"> 
+                    Could Trump Be Criminally Liable for His Deadly Mishandling of Coronavirus? 
+                  </a>
+                  <p class="aside-art-auth">
+                    BY KERRY BROWN
+                  </p>
+                </div>
+              </div>
+
+              <div class="the-debate">
+              <h6 class="col-heading">THE DEBATE</h6>
+                  <div class="the-debate-art">
+                      <img src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&h=95&f=aa2c025d06da441a82387c13a24756c7" alt="" class="the-debate-img">
+                      <div class="the-debate-right">
+                        <a href="#" class="the-debate-title"> 
+                          Trump's Right. The WHO Is Not Fit for Purpose
+                        </a>
+                      </div>
+                  </div>
+                  <p class="the-debate-auth">By <span>Nigel Farage</span></p>
+
+                  <div class="versus"><p>VS</p></div>
+
+                  <div class="the-debate-art my-second-debate">
+                      <img src="https://d.newsweek.com/en/full/1582305/trump-pence.jpg?w=95&h=95&f=aa2c025d06da441a82387c13a24756c7" alt="" class="the-debate-img">
+                      <div class="the-debate-right">
+                        <a href="#" class="the-debate-title"> 
+                          Trump's Right. The WHO Is Not Fit for Purpose
+                        </a>
+                      </div>
+                  </div>
+                  <p class="the-debate-auth">By <span>Nigel Farage</span></p>
+              </div>
+
+
+            <h6 class="col-heading">LATEST NEWS</h6>
+            <article class="latest-news-art d-flex align-items-start border-bottom  py-2">
+              <img src="https://d.newsweek.com/en/full/1582509/innocence-files-chester-hollman-iii.webp?w=95&h=95&f=d94de3520a264a3360f992ef8d5f2ff0" alt="" class="latest-news-img">
+              <div class="aside-art-right">
+                  <a href="#" class="aside-art-title"> 
+                    'The Innocence Files' on Netflix: What Happened to Chester Hollman III?
+                  </a>
+                </div>
+            </article>
+            <article class="latest-news-art d-flex align-items-start border-bottom  py-2">
+                <img src="https://d.newsweek.com/en/full/1582509/innocence-files-chester-hollman-iii.webp?w=95&h=95&f=d94de3520a264a3360f992ef8d5f2ff0" alt="" class="latest-news-img">
+                <div class="aside-art-right">
+                    <a href="#" class="aside-art-title"> 
+                      'The Innocence Files' on Netflix: What Happened to Chester Hollman III?
+                    </a>
+                  </div>
+            </article>
+            <article class="latest-news-art d-flex align-items-start border-bottom  py-2">
+                <img src="https://d.newsweek.com/en/full/1582509/innocence-files-chester-hollman-iii.webp?w=95&h=95&f=d94de3520a264a3360f992ef8d5f2ff0" alt="" class="latest-news-img">
+                <div class="aside-art-right">
+                    <a href="#" class="aside-art-title"> 
+                      'The Innocence Files' on Netflix: What Happened to Chester Hollman III?
+                    </a>
+                  </div>
+            </article>
+
+            <article class="latest-news-art d-flex align-items-start border-bottom  py-2">
+                <img src="https://d.newsweek.com/en/full/1582509/innocence-files-chester-hollman-iii.webp?w=95&h=95&f=d94de3520a264a3360f992ef8d5f2ff0" alt="" class="latest-news-img">
+                <div class="aside-art-right">
+                    <a href="#" class="aside-art-title"> 
+                      'The Innocence Files' on Netflix: What Happened to Chester Hollman III?
+                    </a>
+                  </div>
+            </article>
+            <article class="latest-news-art d-flex align-items-start border-bottom  py-2">
+                <img src="https://d.newsweek.com/en/full/1582509/innocence-files-chester-hollman-iii.webp?w=95&h=95&f=d94de3520a264a3360f992ef8d5f2ff0" alt="" class="latest-news-img">
+                <div class="aside-art-right">
+                    <a href="#" class="aside-art-title"> 
+                      'The Innocence Files' on Netflix: What Happened to Chester Hollman III?
+                    </a>
+                  </div>
+            </article>
             </div>
           </div>
         </div>
-
+        
+        
+        
       </div>
+
+      <div class="row">
+          <div class="col-12">
+            <div class="row align-items-end mb-3">
+              <div class="col-md-3">
+                <img src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg?w=360&h=480&q=90&f=83783f0b5161400b0bc0b3ea3e5912b4" alt="" class="w-100">
+                <a href="#" class="btn btn-light w-100 font-weight-bold">SEE ALL FEATURES ></a>
+              </div>
+
+              <div class="col-md-3 my-magazine-art">
+                  <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                  <div class="d-flex magazine-art-middle mt-2">
+                    <p class="magazine-cover">COVER</p>
+                    <a href="#" class="ml-2">NEWS</a>
+                  </div>
+                  <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+              </div>
+              <div class="col-md-3 my-magazine-art">
+                  <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                  <div class="d-flex magazine-art-middle mt-2">
+                    <p class="magazine-cover">COVER</p>
+                    <a href="#" class="ml-2">NEWS</a>
+                  </div>
+                  <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+              </div>
+              <div class="col-md-3 my-magazine-art">
+                  <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                  <div class="d-flex magazine-art-middle mt-2">
+                    <p class="magazine-cover">COVER</p>
+                    <a href="#" class="ml-2">NEWS</a>
+                  </div>
+                  <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+              </div>
+            </div>
+
+            <div class="row align-items-start mt-3">
+                <div class="col-md-3 my-magazine-art">
+                    <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                    <div class="d-flex magazine-art-middle mt-2">
+                      <p class="magazine-cover">COVER</p>
+                      <a href="#" class="ml-2">NEWS</a>
+                    </div>
+                    <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+                </div>
+    
+                  <div class="col-md-3 my-magazine-art">
+                      <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                      <div class="d-flex magazine-art-middle mt-2">
+                        <p class="magazine-cover">COVER</p>
+                        <a href="#" class="ml-2">NEWS</a>
+                      </div>
+                      <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+                  </div>
+                  <div class="col-md-3 my-magazine-art">
+                      <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                      <div class="d-flex magazine-art-middle mt-2">
+                        <p class="magazine-cover">COVER</p>
+                        <a href="#" class="ml-2">NEWS</a>
+                      </div>
+                      <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+                  </div>
+                  <div class="col-md-3 my-magazine-art">
+                      <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                      <div class="d-flex magazine-art-middle mt-2">
+                        <p class="magazine-cover">COVER</p>
+                        <a href="#" class="ml-2">NEWS</a>
+                      </div>
+                      <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+                  </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-12">
+            <div class="row align-items-end mb-3">
+              <div class="col-md-3 my-magazine-art">
+                  <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                  <div class="d-flex magazine-art-middle mt-2">
+                    <p class="magazine-cover">COVER</p>
+                    <a href="#" class="ml-2">NEWS</a>
+                  </div>
+                  <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+              </div>
+
+              <div class="col-md-3 my-magazine-art">
+                  <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                  <div class="d-flex magazine-art-middle mt-2">
+                    <p class="magazine-cover">COVER</p>
+                    <a href="#" class="ml-2">NEWS</a>
+                  </div>
+                  <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+              </div>
+              <div class="col-md-3 my-magazine-art">
+                  <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                  <div class="d-flex magazine-art-middle mt-2">
+                    <p class="magazine-cover">COVER</p>
+                    <a href="#" class="ml-2">NEWS</a>
+                  </div>
+                  <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+              </div>
+              <div class="col-md-3 my-magazine-art">
+                  <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                  <div class="d-flex magazine-art-middle mt-2">
+                    <p class="magazine-cover">COVER</p>
+                    <a href="#" class="ml-2">NEWS</a>
+                  </div>
+                  <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+              </div>
+            </div>
+
+            <div class="row align-items-start mt-3">
+                <div class="col-md-3 my-magazine-art">
+                    <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                    <div class="d-flex magazine-art-middle mt-2">
+                      <p class="magazine-cover">COVER</p>
+                      <a href="#" class="ml-2">NEWS</a>
+                    </div>
+                    <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+                </div>
+    
+                  <div class="col-md-3 my-magazine-art">
+                      <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                      <div class="d-flex magazine-art-middle mt-2">
+                        <p class="magazine-cover">COVER</p>
+                        <a href="#" class="ml-2">NEWS</a>
+                      </div>
+                      <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+                  </div>
+                  <div class="col-md-3 my-magazine-art">
+                      <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                      <div class="d-flex magazine-art-middle mt-2">
+                        <p class="magazine-cover">COVER</p>
+                        <a href="#" class="ml-2">NEWS</a>
+                      </div>
+                      <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+                  </div>
+                  <div class="col-md-3 my-magazine-art">
+                      <img src="https://d.newsweek.com/en/full/1578792/cover-story-who-would-you-save-05.webp?w=466&h=311&l=57&t=47&q=90&f=3242c9a109df1ae3544361d878810e86" alt="" class="magazine-img w-100 h-auto">
+                      <div class="d-flex magazine-art-middle mt-2">
+                        <p class="magazine-cover">COVER</p>
+                        <a href="#" class="ml-2">NEWS</a>
+                      </div>
+                      <a href="#" class="first-col-header magazine-header">Who Should Doctors Save? Inside the Debate Over Rationing Coronavirus Care</a>
+                  </div>
+            </div>
+          </div>
+      </div>
+
     </div>
     
     
