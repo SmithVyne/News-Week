@@ -21,6 +21,7 @@ body {
   margin: 0 auto;
   padding: 0;
   width: 95%;
+  max-width: 1288px;
 }
 
 .top-nav {
@@ -82,6 +83,7 @@ body {
   position: relative;
   top: -0.7rem;
   clip-path: polygon(93% 0, 94% 20%, 100% 20%, 100% 100%, 0 100%, 0 61%, 0 0);
+  font-size: 1.7rem;
 }
 
 .lower-nav-navs {
@@ -194,12 +196,13 @@ body {
   width: 95%;
   margin: 0 auto;
   padding: 0;
+  max-width: 1288px;
 }
 
 .col-heading {
   color: rgba(51, 51, 51, 0.507);
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .my-first-col .col-12 {
@@ -471,6 +474,7 @@ body {
 .last-news-category-header {
   color: #f72210;
   text-transform: capitalize;
+  font-size: 2.2rem;
 }
 
 .last-news-body {
@@ -578,6 +582,7 @@ body {
   margin: 0 auto;
   padding: 0;
   color: #666;
+  max-width: 1288px;
 }
 
 .footer-top {
