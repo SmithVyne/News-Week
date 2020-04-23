@@ -4,7 +4,7 @@ This is a clone of the News Week homepage [here](https://www.newsweek.com/)
 
 Additional description about the project and its features.
 
-![screenshot](img/screenshot.jpg)
+![screenshot](img/screenshot-news.png)
 ## Built With
 
 - HTML,
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Webpage
 
-[Click Here]()
+[Click Here](https://raw.githack.com/SmithVyne/News-Week/newsweek/index.html)
 
 ## Authors
 
