@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Webpage
 
-[Click Here](https://rawcdn.githack.com/SmithVyne/News-Week/f4106d9ebdd0f6a399c713d0ad9f2a787a5855b4/index.html)
+[Click Here](https://raw.githack.com/SmithVyne/News-Week/newsweek/index.html)
 
 ## Authors
 
